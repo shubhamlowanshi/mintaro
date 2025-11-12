@@ -1,0 +1,1411 @@
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.hero-content button {
+    background-color: #b23a48;
+    color: white;
+    border: none;
+    padding: 12px 32px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hero-content button:hover {
+    background-color: #a1293d;
+}
+
+.mask-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    z-index: 3;
+}
+
+.brand-section {
+    background-color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.brand-section h2 {
+    font-size: 5rem;
+    font-weight: 200;
+    color: transparent;
+    -webkit-text-stroke: 1px #c0c0c0;
+    letter-spacing: 4px;
+}
+.about-us-section {
+    padding: 20px 5%;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.about-us-content-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us-visuals {
+    flex: 1;
+    position: relative;
+    
+}
+.image-collage {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+
+.image-collage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 10px;
+}
+.image-main {
+    width: 60%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.image-glasses {
+    width: 45%;
+    height: 40%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.image-couple {
+    width: 70%;
+    height: 60%;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+.about-us-text {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.about-us-heading {
+    font-size: 36px;
+    font-weight: normal;
+    color: #444;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.about-us-subheading {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.about-us-paragraph {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-us-button {
+    background-color: #a5465f;
+    color: white;
+    border: none;
+    border-radius: 40px !important;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.about-us-button:hover {
+    background-color: #8c3b51;
+}
+
+
+.products-showcase-section {
+    padding: 80px 5%;
+    background-color: #EEE9E5;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.showcase-heading {
+    text-align: left;
+    font-size: 38px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+.product-cards-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.product-card {
+    flex: 1;
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 450px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card-llama-valley {
+    background-color: #f2f0f4;
+    justify-content: space-between;
+    padding-right: 0;
+}
+
+.card-llama-valley .card-text-content {
+    max-width: 60%;
+    padding-right: 20px;
+}
+
+.card-llama-valley h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #444;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.card-llama-valley p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.card-mintaro-estate {
+    background-color: #f0eee9;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.card-mintaro-estate.gray-bg {
+    background-color: #e5e5e5;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.bottle-image {
+    height: 400px;
+    object-fit: contain;
+    align-self: center;
+}
+
+.card-llama-valley .bottle-image {
+
+    right: 0;
+    bottom: 0;
+    width: 400px;
+}
+.shop-now-button {
+    background-color: #a5465f;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.shop-now-button:hover {
+    background-color: #8c3b51;
+}
+.grapes-visual {
+    position: absolute;
+    top: -90px;
+    right: 5%;
+    width: 200px;
+    z-index: 10;
+}
+
+
+.natural-products-section {
+    height: auto;
+    background-color: #F8F8F8;
+    width: auto;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.natural-products-content-wrap {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.natural-products-left {
+    flex: 60%;
+    padding: 40px;
+    background-color: #F8F8F8;
+    position: relative;
+}
+
+.top-images-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.grapes-close-up-image {
+    width: 40%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.vineyard-image {
+    width: 60%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.text-content-left {
+    margin-bottom: 20px;
+}
+
+.natural-heading {
+    font-size: 42px;
+    font-family: 'Times New Roman', serif;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.natural-paragraph {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.grapes-bottom-visual {
+    position: absolute;
+    bottom: -100px;
+    left: -40px;
+    width: 250px;
+    z-index: 2;
+}
+.natural-products-right {
+    flex: 40%;
+    background-color: #bfa888;
+
+    color: white;
+    padding: 40px 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.natural-paragraph-right {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.natural-button {
+    background-color: white;
+    color: #bfa888;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 5px;
+    align-self: flex-start;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.natural-button:hover {
+    background-color: #eee;
+}
+
+.mintaro-vertical-text {
+    position: absolute;
+    right: -70px;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    font-size: 120px;
+    font-family: 'Times New Roman', serif;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.2);
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+
+@media (max-width: 992px) {
+    .natural-products-content-wrap {
+        flex-direction: column;
+        padding: 0 5%;
+    }
+
+    .natural-products-left {
+        padding-right: 40px;
+        margin-bottom: 40px;
+    }
+
+    .natural-products-right {
+        padding: 40px;
+    }
+
+    .mintaro-vertical-text {
+        font-size: 80px;
+        right: -30px;
+    }
+
+    .grapes-bottom-visual {
+        bottom: -20px;
+        left: 20px;
+        width: 180px;
+    }
+}
+
+@media (max-width: 600px) {
+    .top-images-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .grapes-close-up-image,
+    .vineyard-image {
+        width: 100%;
+        height: 180px;
+    }
+
+    .natural-heading {
+        font-size: 34px;
+    }
+
+    .natural-products-left,
+    .natural-products-right {
+        padding: 30px 20px;
+    
+    }
+
+    .mintaro-vertical-text {
+        font-size: 60px;
+        right: -10px;
+    }
+
+    .grapes-bottom-visual {
+        width: 150px;
+        left: 0;
+        bottom: -10px;
+    }
+}
+
+
+@media (max-width: 1050px) {
+
+    .product-cards-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .product-card {
+        min-height: 250px;
+        padding: 20px;
+    }
+
+    .card-llama-valley {
+        flex-direction: row;
+    
+    }
+
+    .card-llama-valley .card-text-content {
+        max-width: 70%;
+    }
+
+    .grapes-visual {
+        display: none;
+
+    }
+}
+.shop-mintaro-wines-section {
+    padding: 80px 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fcfaf8;
+}
+
+.shop-mintaro-heading {
+    font-size: 38px;
+    font-weight: 300;
+    size: 49px;
+    color: #000;
+    margin-bottom: 60px;
+    font-family: 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+.shop-wine-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+
+}
+
+.shop-wine-card {
+    background-color: #f0eee9;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    transition: transform 0.3s ease;
+
+}
+
+.shop-wine-card:hover {
+    transform: translateY(-5px);
+}
+
+.shop-wine-bottle-image {
+    max-height: 250px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 25px;
+}
+
+.shop-wine-box-image {
+    max-height: 200px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 25px;
+    padding-top: 20px;
+}
+
+
+.shop-wine-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.shop-wine-card .shop-now-button {
+    background-color: #a5465f;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.shop-wine-card .shop-now-button:hover {
+    background-color: #8c3b51;
+}
+
+.view-all-button {
+    background: none;
+    border: 1px solid #666;
+    color: #666;
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.view-all-button:hover {
+    background-color: #a5465f;
+    color: white;
+    border-color: #a5465f;
+}
+
+
+
+.mintaro-content-section {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.newsletter-banner {
+    background-image: url('../assets/glass.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    width: auto;
+}
+
+.newsletter-overlay {
+    background-image: url('../assets/rectangle.png');
+    background-size: cover;
+    background-position: center;
+    margin-left: -20px;
+    width: 100%;
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.newsletter-text-content {
+    color: #ffffff;
+    max-width: 450px;
+}
+
+.newsletter-title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.newsletter-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+.newsletter-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.newsletter-input {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 40px;
+    font-size: 1rem;
+    width: 300px;
+}
+
+.subscribe-button {
+    background-color: #9d3e57;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #b55a73;
+}
+
+.instagram-section {
+    background-color: #f7f1eb;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.instagram-title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+}
+
+.instagram-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+}
+
+.insta-image {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+}
+
+.follow-button {
+    background-color: #9d3e57;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    border-radius: 40px;
+}
+
+.follow-button i {
+    margin-right: 8px;
+}
+
+.follow-button:hover {
+    background-color: #b55a73;
+
+}
+
+.hero-and-icons-section {
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero-banner {
+    background-color: #f7f1eb;
+    padding: 50px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-banner-content {
+    display: flex;
+    justify-content: center;    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.hero-visuals {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    gap: 15px;
+}
+
+.hero-bottle {
+    height: 350px;
+    object-fit: contain;
+    display: block;
+}
+
+.hero-glass {
+    height: 250px;
+    object-fit: contain;
+    display: block;
+}
+
+.hero-text-cta {
+    text-align: left;
+    max-width: 500px;
+    position: relative;
+}
+
+.decorative-grapes-top {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 70px;
+    height: auto;
+}
+
+.hero-suggestion {
+    font-size: 1.1rem;
+    color: #6a6a6a;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.hero-main-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+.shop-now-button {
+    background-color: #9d3e57;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.shop-now-button:hover {
+    background-color: #b55a73;
+}
+.decorative-grapes-bottom {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+    z-index: 0;
+}
+
+.icon-grid-section {
+    background-color: #ffffff;
+    padding: 30px 20px;
+}
+
+.icon-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.icon-image {
+    width: auto;
+    height: 90px;
+    margin-bottom: 10px;
+
+}
+
+.icon-label {
+    font-size: 0.85rem;
+    color: #333333;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.icon-grid-wrapper {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #e0e0e0;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+.icon-item {
+    flex: 1;
+    text-align: center;
+    padding: 20px 10px;
+    border-right: 1px solid #e0e0e0;
+    
+}
+
+.icon-item:last-child {
+    border-right: none;
+}
+
+.icon-label {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.icon-image {
+    max-width: 60px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+ 
+}
+
+
+.testimonial-section {
+    position: relative;
+    padding: 80px 20px;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+
+.testimonial-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+
+}
+.section-title {
+    font-family: serif;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    color: #333 !important;
+}
+
+.quote-icon {
+    font-size: 80px;
+    line-height: 1;
+    color: #444;
+    font-weight: 900;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+.review-text {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    margin: 0 auto 30px;
+    max-width: 650px;
+}
+.client-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #fff;
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.client-name {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+
+.nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: 1px solid #ccc;
+    color: #444;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 36px;
+    transition: background-color 0.3s;
+    z-index: 20;
+}
+
+.nav-arrow:hover {
+    background-color: #eee;
+}
+
+.prev-arrow {
+    left: 20px;
+}
+
+.next-arrow {
+    right: 20px;
+}
+.grape-graphic {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    opacity: 0.3;
+ 
+    z-index: 1;
+
+    background: url('../assets/newg.png') no-repeat;
+    background-size: contain;
+}
+
+.grape-graphic.left {
+    left: 0;
+    background-position: top left;
+}
+
+.grape-graphic.right {
+    right: 0;
+    padding-top: 30px;
+    background-position: top right;
+    transform: scaleX(-1);
+       top: 338px;
+}
+
+@media (max-width: 992px) {
+    .hero-banner-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero-visuals {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .hero-text-cta {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .decorative-grapes-top {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+    }
+
+    .hero-main-title {
+        font-size: 2.8rem;
+    }
+
+  
+    .icon-grid-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+   
+    .icon-item:nth-child(4),
+    .icon-item:nth-child(5) {
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .hero-banner {
+        padding: 30px 15px;
+    }
+
+    .hero-bottle {
+        height: 250px;
+    }
+
+    .hero-glass {
+        height: 180px;
+    }
+
+    .hero-visuals {
+        gap: 10px;
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .hero-main-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .shop-now-button {
+        padding: 12px 30px;
+        font-size: 0.9rem;
+        border-radius: 40px;
+    }
+
+    .decorative-grapes-bottom {
+        width: 120px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+
+    .icon-grid-wrapper {
+   
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .icon-item:nth-child(3),
+    .icon-item:nth-child(4),
+    .icon-item:nth-child(5) {
+        display: none;
+    }
+
+    .icon-item:nth-child(1),
+    .icon-item:nth-child(2) {
+
+        display: flex;
+    }
+}
+
+.blog-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.blog-section-title {
+    font-family: serif;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    color: #333;
+    text-transform: uppercase;
+}
+.blog-post-card {
+    display: flex;
+    max-width: 1000px;
+
+    margin: 0 auto 50px;
+    align-items: center;
+    text-align: left;
+}
+
+.blog-image-wrapper {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.blog-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.blog-content {
+    flex: 1;
+    padding-left: 50px;
+}
+
+.blog-post-title {
+    font-family: serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.blog-post-excerpt {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.read-more-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #A3485A;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.read-more-button:hover {
+    background-color: #8C3E4C;
+}
+.view-all-wrapper {
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+.view-all-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.view-all-link:hover {
+    color: #A3485A;
+    border-bottom-color: #A3485A;
+}
+
+@media (max-width: 768px) {
+    .blog-post-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blog-image-wrapper {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .blog-content {
+        padding-left: 0;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .newsletter-overlay {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .newsletter-text-content {
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .newsletter-input {
+        width: 100%;
+        
+    }
+
+    .subscribe-button {
+        width: 100%;
+    }
+    .instagram-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .insta-image:nth-child(4),
+    .insta-image:nth-child(5) {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .newsletter-title {
+        font-size: 2rem;
+    }
+
+    .newsletter-overlay {
+        padding: 20px;
+    }
+
+    .newsletter-banner {
+        min-height: 250px;
+    }
+
+    .instagram-grid {
+       
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .insta-image:nth-child(3),
+    .insta-image:nth-child(4),
+    .insta-image:nth-child(5) {
+        display: none;
+    }
+
+    .follow-button {
+        width: 80%;
+        max-width: 300px;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .shop-wine-cards-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .shop-wine-card {
+        max-width: 400px;
+        margin-bottom: 20px;
+
+    }
+
+    .shop-mintaro-heading {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .shop-mintaro-heading {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .shop-wine-card {
+        padding: 20px;
+    }
+
+    .shop-wine-bottle-image,
+    .shop-wine-box-image {
+        max-height: 180px;
+
+        margin-bottom: 15px;
+    }
+
+    .shop-wine-title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .shop-wine-card .shop-now-button {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    .view-all-button {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    
+    .showcase-heading {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .card-llama-valley h3 {
+        font-size: 24px;
+    }
+
+    .card-llama-valley .bottle-image {
+        width: 400px;
+    }
+}
+@media (max-width: 900px) {
+    .about-us-content-container {
+        flex-direction: column;
+
+    }
+
+    .about-us-visuals {
+        margin-bottom: 40px;
+        height: 400px;
+    
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    .hero-content button {
+        padding: 10px 24px;
+        font-size: 0.9rem;
+    }
+
+    .brand-section h2 {
+        font-size: 2.5rem;
+    }
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import contactlogo from '../assets/contactlogo.jpg'
 import { FaPhoneAlt, FaFax, FaEnvelope, FaMapMarkerAlt, FaClock, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-import './Contactus.css'
+import './ContactUs.css'
 const Contactus = () => {
   return (
     <>

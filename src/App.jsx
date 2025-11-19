@@ -8,11 +8,14 @@ import AboutUs from "./pages/AboutUs";
 import Shop from "./pages/Shop";
 import Contactus from "./pages/Contactus";
 import Blog from "./pages/Blog";
-import HomePage from "./pages/HomePage"; // make sure you have this
+import HomePage from "./pages/HomePage"; 
+import Newcom from "./componetns/newcom";
+
 
 function App() {
   return (
     <Router>
+      {/* <Newcom/> */}
       {/* Top Strip */}
       <div
         style={{

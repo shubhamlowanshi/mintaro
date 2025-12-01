@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomePage.css";
-import vedio from "../assets/HomeVedio.mp4";
+import vedio from "../assets/homeVedio.mp4";
 import maskgroup from "../assets/maskgroup.png";
 import about1 from "../assets/about1.png";
 import grapes from "../assets/grape.png";
